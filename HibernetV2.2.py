@@ -1,5 +1,5 @@
 import socket
-import socks
+#import socks
 import threading
 import random
 import re
@@ -17,18 +17,14 @@ except: # altrimenti, se fallisce l'importazione
 print('''
 
 
-  hh   hh  iii  bbbbbbb  eeeeeee  rrrrrrrr  nn     nnn  eeeeeee  ttttttttt
-  hh   hh  iii  bb   bb  eeeeeee  rr    rr  nnn    nnn  eeeeeee     ttt
-  hh   hh  iii  bb   bb  ee       rr    rr  nnnn   nnn  ee          ttt
-  hh   hh  iii  bbbbbbb  ee       rrrrrrrr  nnnnnnnnnn  ee          ttt
-  hhhhhhh  iii  bb       eeeeeee  rrrr      nnnnnnnnnn  eeeeeee     ttt
-  hh   hh  iii  bbbbbbb  ee       rr rr     nnnnnnnnnn  ee          ttt
-  hh   hh  iii  bb   bb  ee       rr  rr    nn  nnnnnn  ee          ttt
-  hh   hh  iii  bb   bb  eeeeeee  rr   rr   nnn  nnnnn  eeeeeee     ttt
-  hh   hh  iii  bbbbbbb  eeeeeee  rr    rr  nnnn  nnnn  eeeeeee     ttt
+  ccccccc  ccccccc  aaaaaaa  tttttttt  aaaaaaa  ccccccc  kk    kk
+  cc       cc       aa   aa     tt     aa   aa  cc       kk  kk
+  cc       cc       aaaaaaa     tt     aaaaaaa  cc       kkkk
+  cc       cc       aa   aa     tt     aa   aa  cc       kk  kk 
+  ccccccc  ccccccc  aa   aa     tt     aa   aa  ccccccc  kk    kk
 
 
-							C0d3d by All3xJ
+					                       by CC Huang
 	''') # la grafica ci sta
 
 
